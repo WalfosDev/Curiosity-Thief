@@ -9,8 +9,8 @@ From then on you can call functions to modify the houses base. Eg: add more room
 Once that is done call HouseMaker:ReturnHouse() and the houses tile_map will be returned, with it being returned as an object from the tile_map class.
 It will thus be ready for use and you would only have to call TileMap:render()
 
-The functions to modify a housre can be split into 2 catagories intelligent functions and hardcode functions.
-Intelligent functions do all the generation for you where as hardcode is manuall and a bit complicated.
+The functions to modify a house can be split into 2 catagories intelligent functions and more-hands-on functions.
+Intelligent functions do all the generation for you where as more-hands-on is manuall and a bit complicated.
 
 *Intelligent Functions to modify a house*---------------------------------------------------------------------
 (1)
@@ -20,7 +20,7 @@ Intelligent functions do all the generation for you where as hardcode is manuall
 	--(The actuall making of the rooms is handled by the buildRoom function.)
 HouseMaker:ProcedurallyGenerateRooms()
 	
-*Hardcode Functions to modify a house*---------------------------------------------------------------------
+*more-hands-on Functions to modify a house*---------------------------------------------------------------------
 
 How rooms are made:
 Rooms and walls are made by HouseMaker:BuildWallOnyAxis and HouseMaker:BuildWallOnxAxis().
