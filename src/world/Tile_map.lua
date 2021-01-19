@@ -1,5 +1,5 @@
 --[[
-The Tile_map class stores Tile objects and Object objects, in a tile_map so that they can be rendered 
+The Tile_map class acts as a data structure stores Tile objects and Object objects in a grid. These tiles can be rendered 
 to the screen or inquired. The inquiries that may be taken from this class include: the return of a specific
 tile/object from a grid position, check for collisions on a specific coordinate, and to remove a tile from 
 a specific coordinate. 
