@@ -66,7 +66,7 @@ Tile_ids.lua contains the ids for the tiles; which is their quad number in the s
 
 Technically the Object class should also be in this folder as objects are also treated as tile’s, however I thought it was more appropriate to keep it in src.  
 
-Finally, the Tile_map class stores Tile objects and Object objects, in a tile_map so that they can be rendered to the screen or inquired. The inquiries that may be taken from this class include: the return of a specific tile/object from a grid position, check for collisions on a specific coordinate, and to remove a tile from a specific coordinate. 
+Finally, the Tile_map class acts as a data structure that stores Tile objects and Object objects on a grid, in a tile_map so that they can be rendered to the screen or inquired. The inquiries that may be taken from this class include: the return of a specific tile/object from a grid position, check for collisions on a specific coordinate, and to remove a tile from a specific coordinate. 
 
 
  
