@@ -42,7 +42,7 @@ In all I believe my game to be more complex than any other implemented during th
  
 **Phase 3: - - - - - - - - - - - - - - - -** 
 
-**(1) The Game’s State Flow.** The game starts in the TitleScreenState then if play is pressed it goes to the OpeningDialogue which leads to the Playstate. From the playstate it may either go to an AnimationState, cashInMoneyState(if the player has robbed a certain number of houses) or HouseState(where the actual gameplay takes place), all these states go back to the playstate as the playstate is the core of the game. In the HouseState if the player presses P then it goes to the pauseState else if the police come in a 1 tile radius of the player it goes to the loseState. Other States include the dialogueState; and fadeState which is used quite a lot in transitions. The game states are handled by a stateStack. 
+**(1) The Game’s State Flow.** The game states are handled by a stateStack. The game starts in the TitleScreenState then if play is pressed it goes to the OpeningDialogue which leads to the Playstate. From the playstate it may either go to an AnimationState, cashInMoneyState(if the player has robbed a certain number of houses) or HouseState(where the actual gameplay takes place), all these states go back to the playstate as the playstate is the core of the game. In the HouseState if the player presses P then it goes to the pauseState else if the police come in a 1 tile radius of the player it goes to the loseState. Other States include the dialogueState; and fadeState which is used quite a lot in transitions. 
 
 
 
