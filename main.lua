@@ -9,8 +9,8 @@
     LimeZu - https://limezu.itch.io/moderninteriors
 
     Credit for music:
-    Who wrote the track - Dashawn O Proverbs
-    Soundfx - https://freesound.org
+    Dashawn O Proverbs
+    Sound effects - https://freesound.org
 ]]
 
 io.stdout:setvbuf("no")
