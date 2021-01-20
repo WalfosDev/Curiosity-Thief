@@ -1,3 +1,5 @@
+Note: This project is unlicensed meaning, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. 
+
 Hello, this is the code for my CS50g final project. I finnished my final project on Dec/10th/2020. The game designed for this final project is called “Curiosity Thief” and is run on the LOVE2D version 0.10.2 windows framework. To start the game just download the game folder and LOVE2D v0.10.2, then drag the game’s folder on to the love.exe icon. 
 
 The project instructions were as follows:    
